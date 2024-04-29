@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Playfair+Display+SC');
+
+.App {
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+label {
+  display: inline-block;
+  width: 100px;
+}
+
+header {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+  font-family: 'Playfair Display SC', serif;
+  font-size: 64px;
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+/* typography */
+
+html {
+  font-family: 'helvetica neue', sans-serif;
+}
+
+thead th, tfoot th {
+  font-family: 'Rock Salt';
+}
+
+th {
+  letter-spacing: 2px;
+  padding: 10px;
+}
+
+td {
+  letter-spacing: 1px;
+  overflow-x:hidden;
+  overflow-y:hidden;
+  font-size: 12px;
+  padding: 10px;
+  text-align: center;
+}
+
+
+/* table */
+
+table {
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+  overflow:hidden;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.content_td td{
+  max-height: 80px;
+  overflow-y: auto;
+  margin: 0; 
+}
+
+thead th,
+tfoot th {
+  width: 10%;
+}
+
+tbody td:nth-child(4),
+tbody td:nth-child(5) {
+  width: 30%;
+}
+tbody tr:nth-child(odd) {
+  background-color: #fff0c7; 
+}
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: scale-down;
+}
+/* Column Size for thead */
+
+
+/* Column size for tbody */
+
+
+
+.content_td p {
+  max-height: 100px; 
+  overflow-y: auto;
+  margin: 0; 
+}
